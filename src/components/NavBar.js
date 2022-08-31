@@ -1,9 +1,9 @@
 
-import { NavBar, Container } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineDownload } from "react-icons/ai";
-import pdf from "../../assets/img/developer_resume.pdf";
+
 import {
     AiFillGithub,
 } from "react-icons/ai";
@@ -21,9 +21,9 @@ export const NavBar = () => {
                 setScrolled(false);
             }
         }
-        window.addEventListener("scroll, onScroll");
+        window.addEventListener("scroll", onScroll);
 
-        return () => window.removeEventListener("scroll, onScroll");
+        return () => window.removeEventListener("scroll", onScroll);
     }, [])
 
     const onUpdateActiveLink = (value) => {
@@ -34,8 +34,7 @@ export const NavBar = () => {
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""} >
             < Container >
-                <Navbar.Brand href="#home">
-                </Navbar.Brand>
+
                 <Navbar.Toggle aria-controls="basic-navbar-nav" >
                     <span className="navbar-toggler-icon"> </span>
                 </Navbar.Toggle>
@@ -48,15 +47,15 @@ export const NavBar = () => {
 
                     </Nav>
                     <span className="navbar-text">
-                        <div className="social-icons">
-                            <a href="https://www.linkedin.com/in/amy-hwang-633194216/"><img src={FaLinkedinIn} alt="" /></a>
-                            <a href="https://github.com/wl0194"><img src={AiFillGithub} alt="" /></a>
-                            <a href={pdf}><img src={AiOutlineDownload} alt="" /></a>
+                        <div className="social-icon">
+                            <a href="https://www.linkedin.com/in/amy-hwang-633194216/"><FaLinkedinIn /></a>
+                            <a href="https://github.com/wl0194"><AiFillGithub /></a>
+                            <a href="https://drive.google.com/file/d/1qQlW8lzH_YQP2SnkjcPRBp_5vCFVWwLi/view?usp=sharing"><AiOutlineDownload /></a>
                         </div>
                         <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
                     </span>
                 </Navbar.Collapse>
-            </ >
+            </ Container>
         </Navbar >
     );
 }
