@@ -29,6 +29,7 @@ h5 {
   padding: 0;
   line-height: normal;
   color: rgba(0, 0, 0, 0.753);
+  font-size: 25px;
 }
 
 p,
@@ -148,14 +149,15 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: #fff;
+  background-color: rgba(255, 135, 71, 0.886);
   left: 0;
   top: 0;
   z-index: -1;
   transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
-  color: #121212;
+  color: #ffffff;
+  border: none;
 }
 .navbar-text button:hover::before {
   content: "";
@@ -255,10 +257,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /*** Skills CSS ***/
+
+.skill h1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 7rem;
+}
+
 .skills-bx {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
 }
 
 .skills-bx > div {
@@ -272,11 +282,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /*** Projects CSS ***/
 
+#portfolio h1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 7rem;
+}
 .portfolio__container {
-  padding-top: 3rem;
+  padding-top: 3.5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
+  padding-bottom: 10rem;
 }
 
 .portfolio__item {
@@ -289,6 +305,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .portfolio__item:hover {
   border-color: #282c34;
+  cursor: pointer;
 }
 
 .portfolio__item-image {
@@ -301,17 +318,69 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 20px;
 }
 
-.portfolio__item-cta {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 1rem;
+@media screen and (max-width: 600px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
 
-.App {
+/*** Contact CSS ***/
+
+#contact h1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 7rem;
+}
+
+.contact-label {
+  display: block;
+  color: black;
+  font-size: 15px;
+}
+
+.input {
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #000000;
+  padding: 1em 1em 1em 0;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+.contact-form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.btn-block {
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+}
+
+.input-group {
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+.input-submit:disabled {
+  cursor: not-allowed;
+}
+
+*/ .App {
   text-align: center;
 }
-
-.App-header {
+*/ .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;

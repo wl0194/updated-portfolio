@@ -1,10 +1,9 @@
-import budget from "../assets/img/budget.png";
+
 import card from "../assets/img/card.png";
 import cyclist from "../assets/img/cyclist.png";
-import note_taker from "../assets/img/note_taker.png";
 import sourceUnknown from "../assets/img/sourceUnknown.png"
 import typing_warrior from "../assets/img/typing_warrior.png"
-import workout_tracker from "../assets/img/workout_tracker.png"
+
 
 export const Projects = () => {
     return (
