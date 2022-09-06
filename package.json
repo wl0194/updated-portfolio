@@ -1,5 +1,6 @@
 {
   "name": "personal-portfolio",
+  "homepage": "http://amyhwang.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
