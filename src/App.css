@@ -282,13 +282,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /*** Projects CSS ***/
 
-#portfolio h1 {
+#projects h1 {
   display: flex;
   justify-content: center;
   padding-bottom: 5rem;
 }
 
-#portfolio p {
+#projects p {
   color: rgb(45, 45, 45);
   display: flex;
   justify-content: center;

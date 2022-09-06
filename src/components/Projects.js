@@ -8,7 +8,7 @@ import typing_warrior from "../assets/img/typing_warrior.png"
 
 export const Projects = () => {
     return (
-        <section id="portfolio">
+        <section id="projects">
             <h1>Projects</h1>
             <p>Take a peak at my featured work!</p>
 
