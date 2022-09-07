@@ -2,4 +2,4 @@ Check out my portfolio!
 
 ## Links
 
-* [Live](https://amyhwang.me)
+* [AmyHwang Portfolio](https://amyhwang.me)
