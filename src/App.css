@@ -224,8 +224,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 8px 10px;
   font-size: 20px;
   margin-bottom: 16px;
-  display: inline-block;
+  display: block;
   color: rgba(0, 0, 0, 0.753);
+  text-align: left;
 }
 .banner h1 {
   font-size: 60px;
@@ -234,6 +235,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 30px;
   display: block;
+  text-align: left;
 }
 .banner p {
   color: #a4a4a4;
