@@ -62,11 +62,6 @@ export const Skills = () => {
                         </article>
                         <article className="details">
                             <AiFillCheckCircle />
-                            <h5>Bootstrap</h5>
-                            <small>Experienced</small>
-                        </article>
-                        <article className="details">
-                            <AiFillCheckCircle />
                             <h5>Node.JS</h5>
                             <small>Intermediate</small>
                         </article>

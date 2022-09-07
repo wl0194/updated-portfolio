@@ -53,7 +53,9 @@ export const NavBar = () => {
                             <a href="https://github.com/wl0194"><AiFillGithub /></a>
                             <a href="https://drive.google.com/file/d/1qQlW8lzH_YQP2SnkjcPRBp_5vCFVWwLi/view?usp=sharing"><AiOutlineDownload /></a>
                         </div>
-                        <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                        <button className="vvd" onClick={() => console.log('connect')}>
+                            <a href="mailto:amyhh0728@gmail.com"><span>Let's Connect</span></a>
+                        </button>
                     </span>
                 </Navbar.Collapse>
             </ Container>

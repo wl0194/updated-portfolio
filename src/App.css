@@ -105,6 +105,7 @@ span.navbar-text {
   display: flex;
   align-items: center;
 }
+
 .social-icon {
   display: inline-block;
   margin-left: 14px;
@@ -151,6 +152,11 @@ span.navbar-text {
   z-index: -1;
   transition: 0.3s ease-in-out;
 }
+
+.vvd span:hover {
+  color: #fff;
+}
+
 .navbar-text button:hover {
   color: #ffffff;
   border: none;
@@ -254,7 +260,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill h1 {
   display: flex;
   justify-content: center;
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
+}
+
+.skill h4 {
+  padding-bottom: 2rem;
+}
+
+.content h5 {
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .skills-bx {
