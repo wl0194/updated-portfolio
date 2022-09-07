@@ -94,7 +94,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   color: #000000 !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
-  font-size: 18px;
+  font-size: 15px;
   opacity: 0.75;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
@@ -146,21 +146,17 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: #0dcaf0;
+  background-color: #000000;
   left: 0;
   top: 0;
   z-index: -1;
   transition: 0.3s ease-in-out;
 }
 
-.vvd span:hover {
-  color: #fff;
+.navbar-text span:hover {
+  color: #ffffff;
 }
 
-.navbar-text button:hover {
-  color: #ffffff;
-  border: none;
-}
 .navbar-text button:hover::before {
   content: "";
   width: 100%;
@@ -229,7 +225,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: left;
 }
 .banner h1 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -244,15 +240,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   width: 96%;
   text-align: left;
-}
-.banner button {
-  color: #fff;
-  font-weight: 700;
-  font-size: 20px;
-  margin-top: 60px;
-  letter-spacing: 0.8px;
-  display: flex;
-  align-items: center;
+  padding-bottom: 5rem;
 }
 
 .banner img {
