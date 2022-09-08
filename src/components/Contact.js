@@ -1,7 +1,7 @@
 
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
-
+import Fade from 'react-reveal/Fade';
 
 export const Contact = () => {
     const form = useRef();
@@ -15,14 +15,18 @@ export const Contact = () => {
     };
     return (
         <section id="contact">
-            <h1>Contact</h1>
+            <Fade bottom>
+                <h1>Contact</h1>
+            </Fade>
 
-            <form ref={form} onSubmit={sendEmail}>
-                <input type="text" name="name" placeholder="Your Full Name" required />
-                <input type="email" name="email" placeholder="Your Email" required />
-                <textarea name="message" rows="7" placeholder="Your Message" required ></textarea>
-                <button type="submit" className="btn-block">Send Message</button>
-            </form>
+            <Fade bottom>
+                <form ref={form} onSubmit={sendEmail}>
+                    <input type="text" name="name" placeholder="Your Full Name" required />
+                    <input type="email" name="email" placeholder="Your Email" required />
+                    <textarea name="message" rows="7" placeholder="Your Message" required ></textarea>
+                    <button type="submit" className="btn-block">Send Message</button>
+                </form>
+            </Fade>
 
         </section>
 
