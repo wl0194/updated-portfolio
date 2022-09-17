@@ -49,7 +49,7 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/amy-hwang-633194216/"><FaLinkedinIn /></a>
+                            <a href="https://linkedin.com/in/amy-h-633194216/"><FaLinkedinIn /></a>
                             <a href="https://github.com/wl0194"><AiFillGithub /></a>
                             <a href="https://drive.google.com/file/d/1qQlW8lzH_YQP2SnkjcPRBp_5vCFVWwLi/view?usp=sharing"><AiOutlineDownload /></a>
                         </div>
