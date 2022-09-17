@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineDownload } from "react-icons/ai";
+import pdf from "../assets/img/Amy_Resume.pdf";
 
 import {
     AiFillGithub,
@@ -51,7 +52,7 @@ export const NavBar = () => {
                         <div className="social-icon">
                             <a href="https://linkedin.com/in/amy-h-633194216/"><FaLinkedinIn /></a>
                             <a href="https://github.com/wl0194"><AiFillGithub /></a>
-                            <a href="https://drive.google.com/file/d/1qQlW8lzH_YQP2SnkjcPRBp_5vCFVWwLi/view?usp=sharing"><AiOutlineDownload /></a>
+                            <a href={pdf}><AiOutlineDownload /></a>
                         </div>
                         <button className="vvd" onClick={() => console.log('connect')}>
                             <a href="mailto:amyhh0728@gmail.com"><span>Let's Connect</span></a>
