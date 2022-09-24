@@ -5,6 +5,7 @@ import cyclist from "../assets/img/cyclist.png";
 import sourceUnknown from "../assets/img/sourceUnknown.png"
 import typing_warrior from "../assets/img/typing_warrior.png"
 import Slide from 'react-reveal/Slide';
+import starbucks from "../assets/img/starbucks.png";
 
 export const Projects = () => {
     return (
@@ -58,6 +59,16 @@ export const Projects = () => {
                         </div>
                         <div className="portfolio__item-cta">
                             <a href="https://github.com/wl0194/Email-Template" className="btn" target="blank">Github</a>
+                            <a href="#" className="btn" target="blank">Live Demo</a>
+                        </div>
+                    </article>
+                    <article className="portfolio__item">
+                        <h3>Starbucks Landing Page</h3>
+                        <div className="portfolio__item-image">
+                            <img src={starbucks} alt="" />
+                        </div>
+                        <div className="portfolio__item-cta">
+                            <a href="https://github.com/wl0194/startbucks-landing-page" className="btn" target="blank">Github</a>
                             <a href="#" className="btn" target="blank">Live Demo</a>
                         </div>
 
