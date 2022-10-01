@@ -6,6 +6,7 @@ import sourceUnknown from "../assets/img/sourceUnknown.png"
 import typing_warrior from "../assets/img/typing_warrior.png"
 import Slide from 'react-reveal/Slide';
 import starbucks from "../assets/img/starbucks.png";
+import Tora from "../assets/img/Tora.png";
 
 export const Projects = () => {
     return (
@@ -51,6 +52,17 @@ export const Projects = () => {
                             <a href="https://afternoon-reaches-65972.herokuapp.com/" className="btn" target="blank">Live Demo</a>
                         </div>
                     </article>
+                    <article className="portfolio__item">
+                        <h3>Starbucks Landing Page</h3>
+                        <div className="portfolio__item-image">
+                            <img src={starbucks} alt="" />
+                        </div>
+                        <div className="portfolio__item-cta">
+                            <a href="https://github.com/wl0194/startbucks-landing-page" className="btn" target="blank">Github</a>
+                            <a href="#" className="btn" target="blank">Live Demo</a>
+                        </div>
+
+                    </article>
 
                     <article className="portfolio__item">
                         <h3>Source Unknown Email Template</h3>
@@ -63,16 +75,16 @@ export const Projects = () => {
                         </div>
                     </article>
                     <article className="portfolio__item">
-                        <h3>Starbucks Landing Page</h3>
+                        <h3>Tora Icrecream Email Template</h3>
                         <div className="portfolio__item-image">
-                            <img src={starbucks} alt="" />
+                            <img src={Tora} alt="" />
                         </div>
                         <div className="portfolio__item-cta">
-                            <a href="https://github.com/wl0194/startbucks-landing-page" className="btn" target="blank">Github</a>
+                            <a href="https://github.com/wl0194/Icecream" className="btn" target="blank">Github</a>
                             <a href="#" className="btn" target="blank">Live Demo</a>
                         </div>
-
                     </article>
+
                 </Slide>
             </div>
 

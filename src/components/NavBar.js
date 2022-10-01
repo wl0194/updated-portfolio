@@ -33,6 +33,7 @@ export const NavBar = () => {
 
 
     return (
+
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""} >
             < Container >
 
@@ -61,6 +62,7 @@ export const NavBar = () => {
                 </Navbar.Collapse>
             </ Container>
         </Navbar >
+
     );
 }
 
