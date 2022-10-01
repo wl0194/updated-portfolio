@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.02e136ab.css",
-    "main.js": "/static/js/main.3f29a353.js",
-    "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
-    "static/media/cyclist.png": "/static/media/cyclist.4d17571eb93820933e7a.png",
-    "static/media/sourceUnknown.png": "/static/media/sourceUnknown.c759d7d1335fd42a88d6.png",
+    "main.js": "/static/js/main.bb3b991d.js",
+    "static/js/787.44c92f1d.chunk.js": "/static/js/787.44c92f1d.chunk.js",
+    "static/media/cyclist.png": "/static/media/cyclist.200f353eeb6846d0ffd3.png",
     "static/media/starbucks.png": "/static/media/starbucks.e591638128d88ac1c023.png",
+    "static/media/sourceUnknown.png": "/static/media/sourceUnknown.3699f3a083116f607b01.png",
     "static/media/header-img.jpeg": "/static/media/header-img.93c49c9fa4abbb927973.jpeg",
+    "static/media/Tora.png": "/static/media/Tora.e61a1f927ab11f476792.png",
     "static/media/card.png": "/static/media/card.42c743d81405a4ee0b7a.png",
     "static/media/typing_warrior.png": "/static/media/typing_warrior.117fc93bc9fbbd7ef9a8.png",
     "static/media/Amy_Resume.pdf": "/static/media/Amy_Resume.31973bde8796e8cbd4ff.pdf",
     "index.html": "/index.html",
     "main.02e136ab.css.map": "/static/css/main.02e136ab.css.map",
-    "main.3f29a353.js.map": "/static/js/main.3f29a353.js.map",
-    "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
+    "main.bb3b991d.js.map": "/static/js/main.bb3b991d.js.map",
+    "787.44c92f1d.chunk.js.map": "/static/js/787.44c92f1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02e136ab.css",
-    "static/js/main.3f29a353.js"
+    "static/js/main.bb3b991d.js"
   ]
 }
