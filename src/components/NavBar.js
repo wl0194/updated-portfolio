@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineDownload } from "react-icons/ai";
-import pdf from "../assets/img/Amy_Resume.pdf";
+import pdf from "../assets/img/Resume.pdf";
 
 import {
     AiFillGithub,

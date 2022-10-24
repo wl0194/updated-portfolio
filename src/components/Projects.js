@@ -59,7 +59,7 @@ export const Projects = () => {
                         </div>
                         <div className="portfolio__item-cta">
                             <a href="https://github.com/wl0194/startbucks-landing-page" className="btn" target="blank">Github</a>
-                            <a href="#" className="btn" target="blank">Live Demo</a>
+                            <a href="https://wl0194.github.io/startbucks-landing-page/" className="btn" target="blank">Live Demo</a>
                         </div>
 
                     </article>
