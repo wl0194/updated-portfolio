@@ -7,6 +7,7 @@ import typing_warrior from "../assets/img/typing_warrior.png"
 import Slide from 'react-reveal/Slide';
 import starbucks from "../assets/img/starbucks.png";
 import Tora from "../assets/img/Tora.png";
+import playlist from "../assets/img/playlist.png";
 
 export const Projects = () => {
     return (
@@ -82,6 +83,17 @@ export const Projects = () => {
                         <div className="portfolio__item-cta">
                             <a href="https://github.com/wl0194/Icecream" className="btn" target="blank">Github</a>
                             <a href="https://wl0194.github.io/Icecream/" className="btn" target="blank">Live Demo</a>
+                        </div>
+                    </article>
+
+                    <article className="portfolio__item">
+                        <h3>Spotify Playlist</h3>
+                        <div className="portfolio__item-image">
+                            <img src={playlist} alt="" />
+                        </div>
+                        <div className="portfolio__item-cta">
+                            <a href="https://github.com/wl0194/amy-spotify" className="btn" target="blank">Github</a>
+                            <a href="https://amyspotify.netlify.app" className="btn" target="blank">Live Demo</a>
                         </div>
                     </article>
 

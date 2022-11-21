@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.02e136ab.css",
-    "main.js": "/static/js/main.99d0b058.js",
+    "main.js": "/static/js/main.35d7d505.js",
     "static/js/787.44c92f1d.chunk.js": "/static/js/787.44c92f1d.chunk.js",
     "static/media/cyclist.png": "/static/media/cyclist.200f353eeb6846d0ffd3.png",
     "static/media/starbucks.png": "/static/media/starbucks.e591638128d88ac1c023.png",
@@ -10,14 +10,14 @@
     "static/media/Tora.png": "/static/media/Tora.e61a1f927ab11f476792.png",
     "static/media/card.png": "/static/media/card.42c743d81405a4ee0b7a.png",
     "static/media/typing_warrior.png": "/static/media/typing_warrior.117fc93bc9fbbd7ef9a8.png",
-    "static/media/Amy_Resume.pdf": "/static/media/Amy_Resume.31973bde8796e8cbd4ff.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.26fe79a3613b0aee9c72.pdf",
     "index.html": "/index.html",
     "main.02e136ab.css.map": "/static/css/main.02e136ab.css.map",
-    "main.99d0b058.js.map": "/static/js/main.99d0b058.js.map",
+    "main.35d7d505.js.map": "/static/js/main.35d7d505.js.map",
     "787.44c92f1d.chunk.js.map": "/static/js/787.44c92f1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02e136ab.css",
-    "static/js/main.99d0b058.js"
+    "static/js/main.35d7d505.js"
   ]
 }
