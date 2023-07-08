@@ -263,35 +263,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 50%;
 }
 
-.skill h1 {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 4rem;
-}
-
-.skill h4 {
-  padding-bottom: 2rem;
-}
 
 .content h5 {
   font-size: 20px;
   font-weight: 400;
-}
-
-.skills-bx {
-  padding-bottom: 5rem;
-  display: flex;
-  justify-content: center;
-  gap: 4rem;
-}
-
-.skills-bx>div {
-  color: rgba(0, 0, 0, 0.753);
-  padding: 4rem 7rem;
-}
-
-.skill {
-  color: rgba(0, 0, 0, 0.753);
 }
 
 #projects h1 {
@@ -316,7 +291,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .portfolio__item {
-  background: #000000;
+  background: #ffffff;
   padding: 1rem;
   border-radius: 2rem;
   border: 1px solid transparent;
@@ -324,7 +299,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .portfolio__item:hover {
-  background: #a4a4a4;
+  background: #d7d7d7;
   cursor: pointer;
 }
 
@@ -334,7 +309,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .portfolio__item h3 {
-  color: #fff;
+  color: #000000;
   font-size: 30px;
   display: flex;
   justify-content: center;
