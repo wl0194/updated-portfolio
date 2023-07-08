@@ -13,12 +13,8 @@ export const Projects = () => {
     return (
         <section id="projects">
             <Slide bottom>
-                <h1>Projects</h1>
+                <h1>Things I've built</h1>
             </Slide>
-            <Slide bottom>
-                <p>Take a peak at my featured work!</p>
-            </Slide>
-
             <div className="container portfolio__container">
                 <Slide bottom>
                     <article className="portfolio__item">

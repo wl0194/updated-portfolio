@@ -12,10 +12,10 @@ export const Banner = () => {
 
                     <Col xs={12} md={6} xl={7}>
                         <Slide left>
-                            <span className="tagline">Oh, hello there</span>
+                            <span className="tagline"></span>
                         </Slide>
                         <Slide bottom>
-                            <h1>{`My name is Amy J Hwang.`}</h1>
+                            <h1>{`Hi, I'm Amy.`}</h1>
                         </Slide>
                         <Slide bottom>
                             <p>I'm a graduate from a full stack bootcamp offered through University of Pennsylvania.

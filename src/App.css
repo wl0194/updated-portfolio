@@ -84,6 +84,7 @@ nav.navbar {
   z-index: 9999;
   transition: 0.32s ease-in-out;
 }
+
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #ffffffaa;
@@ -97,10 +98,12 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-size: 15px;
   opacity: 0.75;
 }
+
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;
 }
+
 span.navbar-text {
   display: flex;
   align-items: center;
@@ -110,6 +113,7 @@ span.navbar-text {
   display: inline-block;
   margin-left: 14px;
 }
+
 .social-icon a {
   width: 45px;
   height: 45px;
@@ -138,9 +142,11 @@ span.navbar-text {
   background-color: transparent;
   transition: 0.3s ease-in-out;
 }
+
 .navbar-text button span {
   z-index: 1;
 }
+
 .navbar-text button::before {
   content: "";
   width: 0%;
@@ -163,11 +169,13 @@ span.navbar-text {
   height: 100%;
   position: absolute;
 }
+
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
   outline: none;
   box-shadow: none;
 }
+
 nav.navbar .navbar-toggler-icon {
   width: 24px;
   height: 17px;
@@ -177,9 +185,11 @@ nav.navbar .navbar-toggler-icon {
   transition: all 300ms linear;
   top: -2px;
 }
+
 nav.navbar .navbar-toggler-icon:focus {
   border-bottom: 2px solid #fff;
 }
+
 nav.navbar .navbar-toggler-icon:after,
 nav.navbar .navbar-toggler-icon:before {
   width: 24px;
@@ -192,19 +202,23 @@ nav.navbar .navbar-toggler-icon:before {
   z-index: 2;
   transition: all 300ms linear;
 }
+
 nav.navbar .navbar-toggler-icon:after {
   top: 8px;
 }
+
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   transform: rotate(45deg);
   background-color: #fff;
   height: 2px;
 }
+
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   transform: translateY(8px) rotate(-45deg);
   background-color: #fff;
   height: 2px;
 }
+
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
@@ -224,6 +238,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: rgba(0, 0, 0, 0.753);
   text-align: left;
 }
+
 .banner h1 {
   font-size: 50px;
   font-weight: 600;
@@ -233,6 +248,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
   text-align: left;
 }
+
 .banner p {
   color: #a4a4a4;
   font-size: 18px;
@@ -269,7 +285,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   gap: 4rem;
 }
 
-.skills-bx > div {
+.skills-bx>div {
   color: rgba(0, 0, 0, 0.753);
   padding: 4rem 7rem;
 }
@@ -282,16 +298,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   justify-content: center;
   padding-bottom: 5rem;
-}
-
-#projects p {
-  color: rgb(45, 45, 45);
-  display: flex;
-  justify-content: center;
-  font-size: 20px;
-  font-style: italic;
   font-weight: 700;
 }
+
 .portfolio__container {
   padding-top: 3.5rem;
   display: grid;
@@ -299,6 +308,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   gap: 3rem;
   padding-bottom: 10rem;
 }
+
 .portfolio__item-cta {
   display: flex;
   gap: 1rem;
@@ -378,6 +388,7 @@ textarea {
 .btn-block:hover {
   background: #0dcaf0;
 }
+
 footer {
   background: rgb(0, 0, 0);
   padding: 3rem 0;
@@ -424,9 +435,11 @@ footer a {
 .footer__copyright {
   margin-bottom: 0.5rem;
 }
+
 .App {
   text-align: center;
 }
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
