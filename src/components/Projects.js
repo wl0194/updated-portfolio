@@ -28,7 +28,7 @@ export const Projects = () => {
                         </div>
                         <div className="portfolio__item-cta">
                             <a href="https://github.com/wl0194/card-graphix" className="btn" target="blank">Github</a>
-                            <a href="https://card-graphix.herokuapp.com/" className="btn" target="blank">Live Demo</a>
+                            <a href="https://card-graphix.web.app/" className="btn" target="blank">Live Demo</a>
                         </div>
 
                     </article>
