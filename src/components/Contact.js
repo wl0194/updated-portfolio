@@ -16,9 +16,8 @@ export const Contact = () => {
     return (
         <section id="contact">
             <Fade bottom>
-                <h1>Contact</h1>
+                <h1>Let's connect</h1>
             </Fade>
-
             <Fade bottom>
                 <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name="name" placeholder="Your Full Name" required />

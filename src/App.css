@@ -331,7 +331,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 #contact h1 {
   display: flex;
   justify-content: center;
-  padding-bottom: 7rem;
+  padding-bottom: 5rem;
+  font-weight: 700;
 }
 
 form {
@@ -353,7 +354,7 @@ textarea {
 .btn-block {
   color: #fff;
   padding: 1rem;
-  background: #0dcaf0d3;
+  background: #e5203ee8;
   font-size: 16px;
   cursor: pointer;
   border-radius: 0.5rem;
@@ -361,7 +362,7 @@ textarea {
 }
 
 .btn-block:hover {
-  background: #0dcaf0;
+  background: #e5203eb3;
 }
 
 footer {
@@ -392,7 +393,7 @@ footer a {
 }
 
 .footer__socials a {
-  background: #0dcaf0;
+  background: #e5314ce8;
   color: #fff;
   padding: 0.8rem;
   border-radius: 0.7rem;
@@ -402,9 +403,7 @@ footer a {
 }
 
 .footer__socials a:hover {
-  background: transparent;
-  color: #0dcaf0;
-  border-color: #0dcaf0;
+  color: #e5203e7e;
 }
 
 .footer__copyright {
