@@ -11,9 +11,6 @@ export const Banner = () => {
                 <Row className="align-items-center">
 
                     <Col xs={12} md={6} xl={7}>
-                        <Slide left>
-                            <span className="tagline"></span>
-                        </Slide>
                         <Slide bottom>
                             <h1>{`Hi, I'm Amy.`}</h1>
                         </Slide>
