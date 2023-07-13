@@ -6,14 +6,15 @@ import sourceUnknown from "../assets/img/sourceUnknown.png"
 import typing_warrior from "../assets/img/typing_warrior.png"
 import Slide from 'react-reveal/Slide';
 import starbucks from "../assets/img/starbucks.png";
-import Tora from "../assets/img/Tora.png";
 import playlist from "../assets/img/playlist.png";
+import banner from "../assets/img/banner.png"
 
 export const Projects = () => {
     return (
         <section id="projects">
             <Slide bottom>
                 <h1>Things I've built</h1>
+                <h2>♢ CODING / DESIGN / VIDEO EDITING</h2>
             </Slide>
             <div className="container portfolio__container">
                 <Slide bottom>
@@ -71,16 +72,7 @@ export const Projects = () => {
                             <a href=" https://wl0194.github.io/Email-Template/" className="btn" target="blank">Live Demo</a>
                         </div>
                     </article>
-                    <article className="portfolio__item">
-                        <h3>Tora Icrecream Email Template</h3>
-                        <div className="portfolio__item-image">
-                            <img src={Tora} alt="" />
-                        </div>
-                        <div className="portfolio__item-cta">
-                            <a href="https://github.com/wl0194/Icecream" className="btn" target="blank">Github</a>
-                            <a href="https://wl0194.github.io/Icecream/" className="btn" target="blank">Live Demo</a>
-                        </div>
-                    </article>
+
 
                     <article className="portfolio__item">
                         <h3>Spotify Playlist</h3>
@@ -91,6 +83,14 @@ export const Projects = () => {
                             <a href="https://github.com/wl0194/amy-spotify" className="btn" target="blank">Github</a>
                             <a href="https://amyspotify.netlify.app" className="btn" target="blank">Live Demo</a>
                         </div>
+                    </article>
+
+                    <article className="portfolio__item">
+                        <h3>Banner Design</h3>
+                        <div className="portfolio__item-image">
+                            <img src={banner} alt="" />
+                        </div>
+                        <p>Tools used: Miri Canvas</p>
                     </article>
 
                 </Slide>
